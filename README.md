@@ -15,5 +15,11 @@ Individual File:
 
     python PDFparse.py -f ImpracticalPython.pdf -k algorithm -o results.txt
 
+![Alt text](pics/output1.png?raw=true")
 
+## Modules
+* argparse
+* os.listdir, os.path
+* re
+* PyPDF2 *pip install PyPDF2*
 
