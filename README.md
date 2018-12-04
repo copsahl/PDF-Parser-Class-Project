@@ -7,6 +7,7 @@ You can scan individual files with the *-f* option. Or you can scan whole direct
 ## Usage
 
 python PDFparse.py -f <*filename*> -k <*keyword*> -o <*output file name*>
+
 python PDFparse.py -d <*path to directory*> -k <*keyword*> -o <*output file name*>
 
 ## Examples
@@ -16,6 +17,11 @@ Individual File:
     python PDFparse.py -f ImpracticalPython.pdf -k algorithm -o results.txt
 
 ![Alt text](pics/output1.png?raw=true")
+
+Scanning Directory - In the picture, the *comparison.pdf* did not have the keyword. *ImpracticalPython.pdf* did.:
+
+    python PDFparse.py -d <directoryPath> -k program -o results.txt
+
 
 ## Modules
 * argparse
