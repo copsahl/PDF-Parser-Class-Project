@@ -16,12 +16,13 @@ Individual File:
 
     python PDFparse.py -f ImpracticalPython.pdf -k algorithm -o results.txt
 
-![Alt text](pics/output1.png?raw=true")
+![Individual File](pics/output1.png?raw=true")
 
 Scanning Directory - In the picture, the *comparison.pdf* did not have the keyword. *ImpracticalPython.pdf* did.:
 
     python PDFparse.py -d <directoryPath> -k program -o results.txt
 
+![Whole Directory](pics/output2.png?raw=true")
 
 ## Modules
 * argparse
