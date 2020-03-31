@@ -28,5 +28,5 @@ Scanning Directory - In the picture, the *comparison.pdf* did not have the keywo
 * argparse
 * os.listdir, os.path
 * re
-* PyPDF2 *pip install PyPDF2*
+* PyPDF2 `pip install PyPDF2`
 
